@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "two-steps-ahead:block/enderite_block"
+    }
+  }
+}

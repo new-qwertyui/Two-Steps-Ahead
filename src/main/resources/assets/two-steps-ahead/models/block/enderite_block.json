@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "two-steps-ahead:block/enderite_block"
+  }
+}

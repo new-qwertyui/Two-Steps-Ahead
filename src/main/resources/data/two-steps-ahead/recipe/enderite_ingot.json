@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "two-steps-ahead:enderite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "two-steps-ahead:enderite_ingot"
+  }
+}

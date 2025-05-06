@@ -11,7 +11,8 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(TwoStepsAhead.MOD_ID, "enderite_ingot")))));
+    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(TwoStepsAhead.MOD_ID, "enderite_ingot")))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TwoStepsAhead.MOD_ID, name), item);
@@ -23,6 +24,5 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(ENDERITE_INGOT);
         });
-        // TODO: add actual items
     }
 }
